@@ -4,7 +4,7 @@
     
 }
 
-.header{
+header{
     
 background: #FFF8F3;
 
@@ -176,4 +176,76 @@ margin-bottom: 20px;
 }
 .resume{
     text-align: center;
+    
+}
+.resume-c{
+    
+    display: flex;
+    gap: 24px;   
+}
+.resume-t{
+    text-align: center;
+   
+}
+
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume .title{
+    color: #474747;
+    font-weight: 700;
+font-size: 25px;
+margin-bottom: 10px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.resume .description{
+    color: #757575;
+
+
+}
+
+.resume-btn{
+
+    margin-top: 50px;
+    text-align: center;
+}
+
+.Connect{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.connect .title{
+    text-align: left;
+
+
+}
+
+.Connect input[type="text"], input[type="email"] textarea{
+    margin-bottom:24px ;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+
+}
+input{
+    
+    margin-bottom: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+.inp{
+    width: 461px;
+    height: 64px;"
 }
